@@ -736,7 +736,6 @@ background:#dbc605!important;
   font-size: 18px !Important;
 }
 .btn-slider {
-  background-color: #fff;
   color: #ffffff !important;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -744,7 +743,6 @@ background:#dbc605!important;
   font-weight: 800;
 }
 .btn-slider:hover {
-  background-color: #dbdbdb;
   color: #000000!important;
 }
 
