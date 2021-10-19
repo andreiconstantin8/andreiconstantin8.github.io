@@ -1,2 +1,2 @@
-You can visit my webpage on :
+You can visit my webpage here:
 andreiconstantin8.github.io
