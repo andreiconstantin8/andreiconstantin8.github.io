@@ -7977,6 +7977,7 @@ textarea.form-control-lg {
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-image: linear-gradient(to right, rgb(29, 175, 61),rgb(162, 199, 31),rgb(30, 180, 130)) !important;
+  
 }
 
 .bg-success {
