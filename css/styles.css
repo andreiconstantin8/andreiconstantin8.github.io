@@ -656,6 +656,14 @@ background:#dbc605!important;
 *, ::after, ::before {
   box-sizing: border-box;
 }
+
+.blue-fade {
+
+  background: -webkit-linear-gradient(#078d19, #b5c020);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .cards{
   box-sizing: border-box;
   width: 100%;
@@ -4347,6 +4355,7 @@ textarea.form-control-lg {
 .navbar {
   position: relative;
   display: flex;
+  background-color:#0ea700 !important;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -7967,7 +7976,7 @@ textarea.form-control-lg {
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+  background-image: linear-gradient(to right, rgb(29, 175, 61),rgb(162, 199, 31),rgb(30, 180, 130)) !important;
 }
 
 .bg-success {
@@ -11551,12 +11560,10 @@ html {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #1abc9c;
+    color: rgb(0, 0, 0);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #1abc9c;
+    color: rgb(0, 0, 0);
   }
 
   #mainNav.navbar-shrink {
