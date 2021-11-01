@@ -77,7 +77,7 @@
 
 body {
   overflow-x:hidden;
-  background:black!important;
+  background-image: linear-gradient(to right, rgb(15, 15, 15),rgb(46, 46, 46),rgb(20, 22, 21)) !important;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -667,7 +667,7 @@ background:#dbc605!important;
 .cards{
   box-sizing: border-box;
   width: 100%;
-  background:#000000!important;
+  
   position:absolute;
   left: 0px;
   white-space: nowrap;
@@ -683,7 +683,7 @@ background:#dbc605!important;
   width:320px;
   height:320px;
   padding: 2rem;
-  background: #000000 !important;
+  background-image: linear-gradient(to right,rgb(11, 12, 11),rgb(0, 0, 0) ) !important;
   box-shadow: -1rem 0 3rem #000;
   cursor: pointer;
  
@@ -2985,6 +2985,7 @@ textarea.form-control-lg {
 
 .form-floating {
   position: relative;
+ 
 }
 .form-floating > .form-control,
 .form-floating > .form-select {
@@ -7809,6 +7810,7 @@ textarea.form-control-lg {
 
 .fw-bolder {
   font-weight: bolder !important;
+  color:white !important;
 }
 
 .lh-1 {
@@ -7971,12 +7973,12 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: black !important;
+  background-image: linear-gradient(to right, rgb(15, 15, 15),rgb(46, 46, 46),rgb(20, 22, 21)) !important;
 }
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-image: linear-gradient(to right, rgb(29, 175, 61),rgb(162, 199, 31),rgb(30, 180, 130)) !important;
+  background-image: linear-gradient(to right, rgb(32, 182, 18),rgb(22, 100, 33),rgb(33, 160, 8)) !important;
   
 }
 
@@ -11458,7 +11460,13 @@ html {
 
 .page-section {
   padding: 6rem 0;
-  background:black !important;
+  background-image: linear-gradient(to right, rgb(15, 15, 15),rgb(46, 46, 46),rgb(20, 22, 21)) !important;
+}
+
+.page-section2{
+  padding: 6rem 0;
+  background-image: linear-gradient(to right, rgb(15, 15, 15),rgb(46, 46, 46),rgb(20, 22, 21)) !important;
+  margin-top:200px;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -11663,7 +11671,8 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #000000;
+  padding: 6rem 0;
+  background-image: linear-gradient(to right, rgb(15, 15, 15),rgb(46, 46, 46),rgb(20, 22, 21)) !important;
   color: #fff;
 }
 

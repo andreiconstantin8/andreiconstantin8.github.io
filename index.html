@@ -50,6 +50,7 @@
                             href="#about">About</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="#contact">Contact</a></li>
+
                 </ul>
             </div>
         </div>
@@ -408,8 +409,8 @@
             </div>
         </div>
     </section>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <section class="page-section bg-primary text-white mb-0" id="Experience">
+
+    <section class="page-section2 bg-primary text-white mb-0" id="Experience">
 
         <div class="container">
             <!-- About Section Heading-->
@@ -427,16 +428,16 @@
                 <h6>Aug 2021 – present | Timisoara</h6>
                 <p class="lead">
                     E-commerce Developing using Spartacus & Hybris technologies<br>
-					Front-end & Back-end development<br>
-					Angular & Spring boot <br></p>
+                    Front-end & Back-end development<br>
+                    Angular & Spring boot <br></p>
                 <br>
                 <h3>Compiler Developer, CyberTHOR Studios</h3>
                 <h6>Feb 2021 – Jul 2021 | Timisoara</h6>
                 <p class="lead">Application Development for e² studio<br>
                     Eclipse Plug-in Development<br>
-					Improvement, Bugfixing for e2Studio Application Releases <br>
-					Customer support through dedicated website<br>
-                <br><br>
+                    Improvement, Bugfixing for e2Studio Application Releases <br>
+                    Customer support through dedicated website<br>
+                    <br><br>
                 <h3>English</h3>
                 <h6>Listening - B2 , Reading - B2 , Spoken interaction - B2 , Spoken production - B2 , Writing - B2
                 </h6>
@@ -486,22 +487,22 @@
             </div><br>
             <!-- About Section Content-->
             <div class="row text-center">
-               <a href="http://www.github.com/andreiconstantin8">
-                <i class="fab fa-github fa-8x"></i>
-            </a>
-            <br><br><br><br><br><br><br><br>
-            <h2 class="blue-fade">- Example of a personal project -</h2>
-            <br> <br> <br>
+                <a href="http://www.github.com/andreiconstantin8">
+                    <i class="fab fa-github fa-8x"></i>
+                </a>
+                <br><br><br><br><br><br><br><br>
+                <h2 class="blue-fade">- Example of a personal project -</h2>
+                <br> <br> <br>
                 <h3>FullStack Fitness Website</h3>
-                <p class="lead">E-commerce website using Angular and Spring Boot.<br>
+                <p class="lead" style="justify-content: center;">E-commerce website using Angular and Spring Boot.<br>
                     The Website is ment for sales of fitness supplements and accesories<br>
                     Some of the main functionalities are :
-                    <br>○  product category,  product details<br>
-                    ○  shopping cart,checkout, order-tracking <br>
-                    ○  secured customer-authentification<br>
-                    ○  calorie-calculator<br>
-                    ○  website blog with many information about fitness
-                   <br>
+                    <br>⫸ product category, product details<br>
+                    ⫸ shopping cart,checkout, order-tracking <br>
+                    ⫸ secured customer-authentification<br>
+                    ⫸ calorie-calculator<br>
+                    ⫸ website blog with many information about fitness
+                    <br>
                 </p>
                 <span class="btn btn-slider">
                     <h5> See photos &nbsp;&nbsp;<img src="assets/img/Skills/see.png" style="width:60px;height:40px;">
@@ -689,6 +690,61 @@
             <!-- Contact Section Form-->
 
         </div>
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-xl-6">
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                    data-sb-validations="required" />
+                                <label for="name">Full name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                                    data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.
+                                </div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                                    data-sb-validations="required" />
+                                <label for="phone">Phone number</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is
+                                    required.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text"
+                                    placeholder="Enter your message here..." style="height: 10rem"
+                                    data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
+                                </div>
+                            </div>
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                </div>
+                            </div>
+
+                            <div class="d-none" id="submitErrorMessage">
+                                <div class="text-center text-danger mb-3">Error sending message!</div>
+                            </div>
+
+                            <button class="btn btn-primary btn-xl disabled" id="submitButton"
+                                type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
     <!-- Footer-->
     <footer class="footer text-center">
