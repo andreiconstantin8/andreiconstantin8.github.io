@@ -11592,8 +11592,15 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width:550px;
+  height:300px;
 }
+@media only screen and (max-width: 600px) {
+  .masthead .masthead-avatar {
+    width:350px;
+    height:200px
+   }
+  }
 
 @media (min-width: 992px) {
   .masthead {
@@ -11608,6 +11615,8 @@ html {
     font-size: 1.5rem;
   }
 }
+
+
 .Skills .Skills-item {
   cursor: pointer;
   position: relative;
